@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Monday.com MCP Server for n8n integration",
   "scripts": {
-    "start": "npx @mondaydotcomorg/monday-api-mcp -t $MONDAY_TOKEN"
+    "start": "npx @mondaydotcomorg/monday-api-mcp -t $MONDAY_TOKEN --port $PORT"
   },
   "engines": {
     "node": "18.x"
